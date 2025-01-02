@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercises 9</title>
+        <style>
+            .a{
+                background-color: red;
+                width: 50px;
+                height: 50px;
+            }
+            .b{
+                background-color: green;
+                width: 50px;
+                height: 50px;
+                border-radius: 100px;
+            }
+            .c{
+                border: solid;
+                border-color: grey;
+                width: 300px;
+            }
+            .c1{
+                margin-top: 12px;
+                font-family: arial;
+                font-size: 14px;
+                margin-left: 10px;
+            }
+            .c2,.c3{
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+            .c3{
+                margin-left: 0px;
+            }
+            .d{
+                border: none;
+                background-color: rgb(30, 30, 30);
+                color: white;
+                width: 350px;
+                font-family: arial;
+            }
+            .d1{
+                margin-left: 10px;
+                font-size: 14px;
+                padding-top:10px;
+                margin-bottom: 0px;
+            }
+            .d2{
+                margin-left: 8px;
+                margin-top: 10px;
+                font-size: 14px;
+                color: gray;
+                padding-bottom:10px;
+                padding-right: 10px;
+            }
+            .e{
+                border: none;
+                box-shadow: 0 0 10px black;
+                padding: 10px;
+                border-radius: 5px;
+                width: 330px;
+            }
+            .e1{
+                border-radius: 600px;
+                width: 30px;
+                height: 30px;
+                object-fit: cover;
+            }
+            .e2{
+                border: none;
+                vertical-align: top;
+                color: grey;
+                padding-left: 8px;
+                padding-right: 0px;
+                margin-top: 6px;
+            }
+            .e3{
+                color: white;
+                background-color: rgb(66, 136, 207);
+                vertical-align: top;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border: none;
+                border-radius: 20px;
+                font-size: 12px;
+                font-weight: 600;
+                margin-left: 50px;
+                margin-top: 4px;
+            }
+            .f{
+                width: 160px;
+                height: 260px;
+                border: none;
+                box-shadow: 0 0 10px gray;
+            }
+            .f1{
+                width: 160px;
+                height: 160px;
+                object-fit: cover;
+                object-position: middle;
+            }
+            .f2{
+                font-family: arial;
+                margin-left: 4px;
+                font-weight: 600;
+                margin-top: 5px;
+                margin-bottom: 0px;
+            }
+            .f3{
+                font-family: arial;
+                margin-left: 4px;
+                margin-top: 6px;
+                font-size: 12px;
+                color: grey;
+            }
+            .f4{
+                color: white;
+                background-color: rgb(45, 93, 185);
+                border: none;
+                border-radius: 5px;
+                margin-left: 6px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .g0,.g1,.g2{
+                display: inline-block;
+                width: 160px;
+                height: 260px;
+                border: none;
+                box-shadow: 0 0 10px gray;
+                margin-right: 20px;
+            }
+            .g01,.g11,.g21{
+                width: 160px;
+                height: 160px;
+                object-fit: cover;
+                object-position: middle;
+            }
+            .g02,.g12,.g22{
+                font-family: arial;
+                margin-left: 4px;
+                font-weight: 600;
+                margin-top: 5px;
+                margin-bottom: 0px;
+            }
+            .g03,.g13,.g23{
+                font-family: arial;
+                margin-left: 4px;
+                margin-top: 6px;
+                font-size: 12px;
+                color: grey;
+            }
+            .g04,.g14,.g24{
+                color: white;
+                background-color: rgb(45, 93, 185);
+                border: none;
+                border-radius: 5px;
+                margin-left: 6px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 13px;
+                padding-right: 13px;
+            }
+
+            .h1{
+                width: 120px;
+                display: block;
+                margin-left: 110px;
+            }
+            .h2{
+                width: 200px;
+                padding-left: 10px;
+                padding-right: 100px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-left: 30px;
+                margin-top: 10px;
+                font-size: 10px;
+                border: none;
+                border-radius: 10px;
+                box-shadow: 0 0 6px rgb(160, 159, 159);
+                display: block;
+            }
+            .h3,.h4{
+                color: black;
+                background-color: rgb(223, 223, 223);
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                border: none;
+                margin-top: 20px;
+                margin-left: 90px;
+                font-size: 8px;
+            }
+            .h4{
+                margin-left: 10px;
+            }
+            .dummy-space{
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>9a.</h4>
+        <div class="a"></div>
+        
+        <h4>9b.</h4>
+        <div class="b"></div>
+
+        <h4>9c.</h4>
+        <div class="c">
+            <p class="c1">Satisfied with our service?</p>
+            <button class="c2">Yes</button>
+            <button class="c3">No</button>
+        </div>
+
+        <h4>9d.</h4>
+        <div class="d">
+            <p class="d1">Install YouTube Music</p>
+            <p class="d2">Add YouTube Music to your desktop for quick and easy access</p>
+        </div>
+
+        <h4>9e.</h4>
+        <div class="e">
+            <img src="cat.jpg" class="e1">
+            <input class="e2" placeholder="What's happening?">
+            <button class="e3">Tweet</button>
+        </div>
+
+        <h4>9f.</h4>
+        <div class="f">
+            <img class="f1" src="cat.jpg">
+            <p class="f2">Oliver</p>
+            <p class="f3">2 mutual friends</p>
+            <button class="f4">Add friend</button>
+        </div>
+
+        <h4>9g.</h4>
+        <div class="g0">
+            <img class="g01" src="cat.jpg">
+            <p class="g02">Oliver</p>
+            <p class="g03">2 mutual friends</p>
+            <button class="g04">Add friend</button>
+        </div>
+        <div class="g1">
+            <img class="g11" src="animal2.jpeg">
+            <p class="g12">Mimi</p>
+            <p class="g13">3 mutual friends</p>
+            <button class="g14">Add friend</button>
+        </div>
+        <div class="g2">
+            <img class="g21" src="animal3.jpg">
+            <p class="g22">Rex</p>
+            <p class="g23">2 mutual friends</p>
+            <button class="g24">Add friend</button>
+        </div>
+
+        <h4>9h.</h4>
+        <div>
+            <img class="h1" src="google.jpg">
+            <input class="h2" type="text" placeholder="Search Google or type a URL">
+            <button class="h3">Google Search</button>
+            <button class="h4">I'm Feeling Lucky</button>
+        </div>
+
+        <div class="dummy-space"></div>
+    </body>
+</html>
