@@ -1,0 +1,18 @@
+.d1,.d2,.ds2{
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.d1{
+    font-weight: 600;
+    font-size: 29px;
+}
+.d2{
+    font-size: 13px;
+    margin-top: 8px;
+}
+.ds2{
+    text-decoration: underline;
+}
