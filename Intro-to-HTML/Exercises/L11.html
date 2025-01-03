@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercises 11</title>
+        <style>
+            .lp{
+                background-color: lightpink;
+            }
+            .lb{
+                background-color: lightblue;
+            }
+            .a{
+                display: grid;
+                grid-template-columns: 200px 75px;
+            }
+            .b{
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+            }
+            .c{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 10px;
+            }
+            .g0,.g1,.g2{
+                display: inline-block;
+                width: 160px;
+                height: 260px;
+                border: none;
+                box-shadow: 0 0 10px gray;
+                margin-right: 20px;
+            }
+            .g01,.g11,.g21{
+                width: 160px;
+                height: 160px;
+                object-fit: cover;
+                object-position: middle;
+            }
+            .g02,.g12,.g22{
+                font-family: arial;
+                margin-left: 4px;
+                font-weight: 600;
+                margin-top: 5px;
+                margin-bottom: 0px;
+            }
+            .g03,.g13,.g23{
+                font-family: arial;
+                margin-left: 4px;
+                margin-top: 6px;
+                font-size: 12px;
+                color: grey;
+            }
+            .g04,.g14,.g24{
+                color: white;
+                background-color: rgb(45, 93, 185);
+                border: none;
+                border-radius: 5px;
+                margin-left: 6px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 13px;
+                padding-right: 13px;
+            }
+            .div-g1{
+                display: block;
+            }
+            .div-g2{
+                display: block;
+            }
+            .g-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>11a.</h4>
+        <div class="a">
+            <div class="lb">200px</div>
+            <div class="lp">75px</div>
+        </div>
+
+        <h4>11b.</h4>
+        <div class="b">
+            <div class="lb">col1</div>
+            <div class="lp">col2</div>
+            <div class="lb">col3</div>
+        </div>
+
+        <h4>11c.</h4>
+        <div class="c">
+            <div class="lp">col1</div>
+            <div class="lp">col2</div>
+            <div class="lp">col3</div>
+            <div class="lp">col4</div>
+            <div class="lp">col1</div>
+            <div class="lp">col2</div>
+            <div class="lp">col3</div>
+            <div class="lp">col4</div>
+        </div>
+
+        <h4>11d.</h4>
+        <div class="g-grid">
+        <div class="g0">
+            <div class="div-g1">
+                <img class="g01" src="cat.jpg">
+            </div>
+            <div class="div-g2">
+                <p class="g02">Oliver</p>
+                <p class="g03">2 mutual friends</p>
+                <button class="g04">Add friend</button>
+            </div>
+        </div>
+        <div class="g1">
+            <div class="div-g1">
+                <img class="g11" src="animal2.jpeg">
+            </div>
+            <div class="div-g2">
+                <p class="g12">Mimi</p>
+                <p class="g13">3 mutual friends</p>
+                <button class="g14">Add friend</button>
+            </div>
+        </div>
+        <div class="g2">
+            <div class="div-g1">
+                <img class="g21" src="animal3.jpg">
+            </div>
+            <div class="div-g2">
+                <p class="g22">Rex</p>
+                <p class="g23">2 mutual friends</p>
+                <button class="g24">Add friend</button>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>

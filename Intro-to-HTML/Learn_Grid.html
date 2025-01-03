@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Practice</title>
+        <style>
+            .lp{
+                background-color: lightpink;
+            }
+            .lb{
+                background-color: lightblue;
+            }
+            .lr{
+                background-color: rgb(245, 75, 75);
+            }
+        </style>
+    </head>
+    <body style="padding-bottom: 1000px;">
+        <div style="display: grid; grid-template-columns: 150px 150px;">
+            <div class="lp">div1</div>
+            <div class="lb">div2</div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 150px 150px; margin-top: 50px;">
+            <div class="lp">div1</div>
+            <div class="lb">div2<p>hello </p></div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 150px 150px; margin-top: 50px;">
+            <div class="lp">div1</div>
+            <div class="lb">div2</div>
+            <div class="lr">div3</div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 50px 50px 1fr; margin-top: 50px;">
+            <div class="lp">div1</div>
+            <div class="lb">div2</div>
+            <div class="lr">div3</div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 50px 1fr 1fr; margin-top: 50px;">
+            <div class="lp">div1</div>
+            <div class="lb">div2</div>
+            <div class="lr">div3</div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 50px 1fr 2fr; margin-top: 50px;">
+            <div class="lp">div1</div>
+            <div class="lb">div2</div>
+            <div class="lr">div3</div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 50px; column-gap: 20px; row-gap: 40px;">
+            <div class="lp" style="height: 200px;">div1</div>
+            <div class="lb" style="height: 200px;">div2</div>
+            <div class="lp" style="height: 200px;">div3</div>
+            <div class="lb" style="height: 200px;">div4</div>
+            <div class="lp" style="height: 200px;">div5</div>
+            <div class="lb" style="height: 200px;">div6</div>
+        </div>
+    </body>
+</html>
